@@ -5,6 +5,7 @@
 			<?php echo $content; ?>
 		</div><!-- content -->
 	</div>
+
 	<div class="span-5 last">
 		<div id="sidebar">
 		<?php
@@ -17,6 +18,8 @@
 			));
 			$this->endWidget();
 		?>
+        <?php $this->beginContent('//layouts/column3'); ?>
+        <?php $this->endContent(); ?>
 		</div><!-- sidebar -->
 	</div>
 </div>
